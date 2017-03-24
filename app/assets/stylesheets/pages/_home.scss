@@ -30,10 +30,18 @@
 }
 .landing-treatments-box	{
 	background-color: #F2F2F2;
-	width: 30vw;
-	padding: 30px 20px;
+	width: 335px;
+    height: 400px;
+	padding: 30px 30px;
+	margin-right: 5px;
 	p {
+		padding-top: 15px;
 		color: #7B7C81;
 		font-size: 18px;
 	}
+}
+.landing-treatments-image img {
+	height: 400px;
+	width: 650px;
+	margin-left: 5px;
 }
