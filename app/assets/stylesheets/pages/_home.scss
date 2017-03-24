@@ -1,4 +1,15 @@
-/* -------------------------------------
- * CSS code specific to home page
- * (margin/padding adjustments)
- * ------------------------------------- */
+.landing-sub-text {
+	margin-top: 20px;
+	letter-spacing: 1px;
+}
+.main-logo {
+	width: 480px;
+	position: absolute;
+	top: 36vh;
+  	left: 14vw;
+}
+.page-content {
+	background-color: white;
+	width: 100vw;
+	z-index: 100;
+}

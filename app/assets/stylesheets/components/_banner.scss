@@ -1,0 +1,11 @@
+.homepage-banner {
+  height: 85vh;
+  width: 100%;
+  background-size: cover !important;
+  position: relative;
+  background-position: center;
+  z-index: -10;
+}
+.banner-content {
+  position: absolute;
+}
