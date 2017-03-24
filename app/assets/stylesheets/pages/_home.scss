@@ -5,11 +5,35 @@
 .main-logo {
 	width: 480px;
 	position: absolute;
-	top: 36vh;
-  	left: 14vw;
+	top: 27vh;
+  	left: 10vw;
 }
 .page-content {
 	background-color: white;
-	width: 100vw;
-	z-index: 100;
+	width: 100%;
+	z-index: 100 !important;
+	position: relative;
+	margin-top: 80vh;
+	padding-top: 30px;
+}
+.intro-text {
+	padding: 40px 200px;
+	p {
+		font-size: 20px;
+		color: #7B7C81;
+	}
+}
+.landing-treatments {
+	display: flex;
+	justify-content: center;
+
+}
+.landing-treatments-box	{
+	background-color: #F2F2F2;
+	width: 30vw;
+	padding: 30px 20px;
+	p {
+		color: #7B7C81;
+		font-size: 18px;
+	}
 }
