@@ -1,1 +1,36 @@
 // Your footer style
+.footer {
+	background-color: #7B7C81;
+	z-index: 10000 !important;
+	padding-bottom: 50px;
+}
+.footer-main {
+	padding: 70px 0 0px 0;
+	p {
+		color: white;
+		font-weight: lighter;
+		text-decoration: none;
+		margin-top: 30px;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+}
+.footer-small {
+	p {
+		color: white;
+		font-weight: lighter;
+		text-decoration: none;
+		font-size: 11px;
+		margin: 0;
+		padding-top: 10px;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+}
+.footer-logo {
+	width: 340px;
+}

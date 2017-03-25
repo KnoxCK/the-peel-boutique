@@ -1,6 +1,9 @@
 .landing-sub-text {
 	margin-top: 20px;
-	letter-spacing: 1px;
+	h3 {
+		font-size: 26px;
+		letter-spacing: 1px;
+	}
 }
 .main-logo {
 	width: 480px;
@@ -23,25 +26,85 @@
 		color: #7B7C81;
 	}
 }
-.landing-treatments {
+.landing-boxes {
 	display: flex;
 	justify-content: center;
-
 }
 .landing-treatments-box	{
 	background-color: #F2F2F2;
-	width: 335px;
-    height: 400px;
+	width: 355px;
+    height: 350px;
 	padding: 30px 30px;
-	margin-right: 5px;
+	margin-right: 7px;
+	h3 {
+		font-size: 26px;
+		letter-spacing: 1px;
+	}
 	p {
 		padding-top: 15px;
 		color: #7B7C81;
-		font-size: 18px;
+		font-size: 16px;
 	}
 }
 .landing-treatments-image img {
-	height: 400px;
-	width: 650px;
-	margin-left: 5px;
+	height: 350px;
+	width: 630px;
+	margin-left: 7px;
+}
+.landing-about-box	{
+	background-color: #F2F2F2;
+	width: 355px;
+    height: 350px;
+	padding: 30px 30px;
+	margin-left: 7px;
+	h3 {
+		font-size: 26px;
+		letter-spacing: 1px;
+	}
+	p {
+		padding-top: 15px;
+		color: #7B7C81;
+		font-size: 16px;
+	}
+}
+.landing-about-image img {
+	height: 350px;
+	width: 630px;
+	margin-right: 7px;
+}
+.spacer-text h3 {
+	font-size: 26px;
+	letter-spacing: 1px;
+	margin: 70px 0;
+}
+.landing-book-image {
+	position: relative;
+	img {
+		width: 492.5px;
+		margin-right: 7px;
+	}
+	p {
+		position: absolute;
+		bottom: 25px;
+		left: 50px;
+		font-size: 22px;
+		color: white;
+	}
+}
+.landing-shop-image {
+	position: relative;
+	img {
+		width: 492.5px;
+		margin-left: 7px;
+	}
+	p {
+		position: absolute;
+		bottom: 25px;
+		left: 50px;
+		font-size: 22px;
+		color: white;
+	}
+}
+.instagram-images img {
+	width: 100%;
 }
