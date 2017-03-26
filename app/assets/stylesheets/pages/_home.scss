@@ -1,8 +1,9 @@
 .landing-sub-text {
-	margin-top: 20px;
-	h3 {
-		font-size: 26px;
+	margin-top: 24px;
+	p {
+		font-size: 24px;
 		letter-spacing: 1px;
+		color: #7B7C81;
 	}
 }
 .main-logo {
@@ -45,6 +46,14 @@
 		color: #7B7C81;
 		font-size: 16px;
 	}
+	a {
+		color: #7B7C81;
+		text-decoration:none;
+	}
+	a:hover {
+		color: #FDA993;
+		text-decoration:none;
+	}
 }
 .landing-treatments-image img {
 	height: 350px;
@@ -66,6 +75,14 @@
 		color: #7B7C81;
 		font-size: 16px;
 	}
+	a {
+		color: #7B7C81;
+		text-decoration:none;
+	}
+	a:hover {
+		color: #FDA993;
+		text-decoration:none;
+	}
 }
 .landing-about-image img {
 	height: 350px;
@@ -77,7 +94,7 @@
 	letter-spacing: 1px;
 	margin: 70px 0;
 }
-.landing-book-image {
+.landing-book-triangle {
 	position: relative;
 	img {
 		width: 492.5px;
@@ -85,13 +102,18 @@
 	}
 	p {
 		position: absolute;
-		bottom: 25px;
-		left: 50px;
+		bottom: 10px;
+		left: 20px;
 		font-size: 22px;
 		color: white;
 	}
 }
-.landing-shop-image {
+.landing-book-triangle:hover {
+	p {
+		color: #7B7C81;
+	}
+}
+.landing-shop-triangle {
 	position: relative;
 	img {
 		width: 492.5px;
@@ -99,10 +121,81 @@
 	}
 	p {
 		position: absolute;
-		bottom: 25px;
-		left: 50px;
+		bottom: 10px;
+		left: 28px;
 		font-size: 22px;
 		color: white;
+	}
+}
+.landing-shop-triangle:hover {
+	p {
+		color: #7B7C81;
+	}
+}
+.triple-box {
+	margin-top: 14px;
+}
+.landing-press-image {
+	position: relative;
+	img {
+		width: 324px;
+	}
+	p {
+		position: absolute;
+		bottom: 46px;
+		left: 103px;
+		font-size: 22px;
+		color: white;
+		border: 3px solid white;
+		padding: 10px;
+	}
+}
+.landing-press-image:hover {
+	p {
+		background-color: #7B7C81;
+	}
+}
+
+.landing-contact-image {
+	position: relative;
+	img {
+		width: 324px;
+		margin-left: 14px;
+		margin-right: 14px;
+	}
+	p {
+		position: absolute;
+		bottom: 46px;
+		left: 103px;
+		font-size: 22px;
+		color: white;
+		border: 3px solid white;
+		padding: 10px;
+	}
+}
+.landing-contact-image:hover {
+	p {
+		background-color: #7B7C81;
+	}
+}
+.landing-faq-image {
+	position: relative;
+	img {
+		width: 324px;
+	}
+	p {
+		position: absolute;
+		bottom: 46px;
+		left: 124px;
+		font-size: 22px;
+		color: white;
+		border: 3px solid white;
+		padding: 10px;
+	}
+}
+.landing-faq-image:hover {
+	p {
+		background-color: #7B7C81;
 	}
 }
 .instagram-images img {
