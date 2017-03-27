@@ -8,6 +8,7 @@ class PagesController < ApplicationController
   end
 
   def treatments
+    @treatments = Treatment.all
   end
 
   def contact

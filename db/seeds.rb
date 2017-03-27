@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Treatment.destroy_all
+
+Treatment.create!(sku:'brightening-peel', name:'The Brightening Peel', price: 75, description:'This is a description of this peel. Blah Blah Blah.')
+Treatment.create!(sku:'hydrating-peel', name:'The Hydrating Peel', price: 75, description:'This is a description of this peel. Blah Blah Blah.')
+Treatment.create!(sku:'blemish-peel', name:'The Blemish Peel', price: 75, description:'This is a description of this peel. Blah Blah Blah.')
+
+puts 'treatments seeded'
