@@ -12,7 +12,8 @@ class PaymentsController < ApplicationController
     )
 
     charge = Stripe::Charge.create(
-      amount:       @order.amount_pennies
+      customer: customer.id,
+      amount:       @order.amount_pennies,
       description:  "Payment for treatment #{@order.sku} for order #{@order.id}",
       currency:     @order.amount.currency
     )

@@ -11,6 +11,10 @@
   <body>
     <%= render 'shared/navbar' %>
     <%= render 'shared/flashes' %>
+    <div class="payment-error" style="margin-top: 100px;">
+      <%= flash[:error] %>
+      <%= flash[:notice] %>
+    </div>
     <%= yield %>
     <%= javascript_include_tag 'application' %>
   </body>
