@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :teddies, only: [:index]
+  resources :treatments, only: [:index]
 
   devise_for :users
   root to: 'pages#home'
