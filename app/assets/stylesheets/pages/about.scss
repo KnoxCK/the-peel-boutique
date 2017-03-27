@@ -1,0 +1,32 @@
+.about-sub-text {
+	margin-top: 24px;
+	margin-bottom: 50px;
+	h3 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		color: #FDA993;
+	}
+	p {
+		font-size: 16px;
+		letter-spacing: 1px;
+		color: #7B7C81;
+		padding: 20px 230px;
+		margin: 0;
+	}
+	strong {
+		font-size: 18px;
+	}
+}
+.about-rabia-image img {
+	width: 600px; 
+	margin: 20px;
+}
+.about-small-images {
+	display: flex;
+	justify-content: center;
+	img {
+		width: 350px;
+		height: 200px;
+		margin: 20px 7px;
+	}
+}
