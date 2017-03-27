@@ -1,1 +1,11 @@
-
+<div class="treatments" style="margin-top: 100px; margin-left: 40px;">
+  <% @treatments.each do |treatment| %>
+    <h3><%= treatment.name %></h3>
+    <p><%= treatment.description %></p>
+    <p>Price: <%= humanized_money_with_symbol(treatment.price) %></p>
+    <%= form_tag orders_path do %>
+      <%= hidden_field_tag 'treatment_id', treatment.id %>
+      <%= submit_tag 'Book', class: 'btn btn-info' %>
+    <% end %>
+  <% end %>
+</div>
