@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :orders, only: [:show, :create]
+
   devise_for :users
   root to: 'pages#home'
   get 'about', to: 'pages#about'
