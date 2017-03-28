@@ -8,7 +8,6 @@ class PagesController < ApplicationController
   end
 
   def treatments
-    @treatments = Treatment.all
   end
 
   def contact
@@ -21,5 +20,6 @@ class PagesController < ApplicationController
   end
 
   def booking
+    @treatments = Treatment.all
   end
 end
