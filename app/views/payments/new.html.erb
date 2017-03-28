@@ -8,8 +8,8 @@
 
   <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
     data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
-    data-name="My Teddy"
-    data-description="Teddy <%= @order.sku %>"
+    data-name="My Treatment"
+    data-description="<%= @order.sku %>"
     data-amount="<%= @order.amount_pennies %>"
     data-currency="<%= @order.amount.currency %>"></script>
 <% end %>
