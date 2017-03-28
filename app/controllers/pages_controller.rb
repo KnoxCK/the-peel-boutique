@@ -17,9 +17,9 @@ class PagesController < ApplicationController
   end
 
   def shop
+    @treatments = Treatment.all
   end
 
   def booking
-    @treatments = Treatment.all
   end
 end
