@@ -16,6 +16,7 @@
 	}
 }
 .treatment-menu {
+	position: relative;
 	background-color: #F2F2F2;
 	margin: 0 80px;
 	h3 {
@@ -24,7 +25,17 @@
 		padding-bottom: 30px;
 	}
 	p {
-		padding: 0 50px 20px 50px;
+		padding: 0 50px 50px 50px;
 		margin-bottom: 20px;
 	}
+}
+.treatment-strip-left {
+    position: absolute;
+    bottom: -29px;
+    left: -32px;
+}
+.treatment-strip-right {
+    position: absolute;
+    top: -27px;
+    right: -30px;
 }

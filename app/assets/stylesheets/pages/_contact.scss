@@ -8,6 +8,7 @@
 	}
 }
 .contact-sub-text {
+	position: relative;
 	background-color: #F2F2F2;
 	margin: 24px 200px 70px 200px;
 	h3 {
@@ -33,4 +34,14 @@
 .contact-link:hover {
 	text-decoration: none;
 	color: #FDA993;
+}
+.contact-strip-left {
+    position: absolute;
+    bottom: -29px;
+    left: -32px;
+}
+.contact-strip-right {
+    position: absolute;
+    top: -27px;
+    right: -30px;
 }
