@@ -1,94 +1,100 @@
 <%= render 'shared/navbar_landing' %>
-<div class="homepage-banner" style="background-image: url('http://res.cloudinary.com/dc8wyadoa/image/upload/v1490357798/Screen_Shot_2017-03-24_at_12.15.59_fvkgxg.png');">
-	<div class="banner-content">
-    	<%= image_tag "TPB-logo-big.png", class: "main-logo" %>
-  	</div>	
-</div>
-<div class="page-content">
-	<div class="landing-sub-text text-center">
-		<p>VISIBLY BRIGHTER, HEALTHIER LOOKING SKIN</p>
+<div class="homepage">
+	<div class="homepage-banner" style="background-image: url('http://res.cloudinary.com/dc8wyadoa/image/upload/v1490357798/Screen_Shot_2017-03-24_at_12.15.59_fvkgxg.png');">
+		<div class="banner-content">
+	    	<%= image_tag "TPB-logo-big.png", class: "main-logo fadeIn landing-logo" %>
+	    	<p class="landing-text text-center fadeIn hidden">HEALTHIER LOOKING SKIN IN JUST 20 MINUTES</p>
+	  	</div>	
 	</div>
-	<div class="intro-text text-center container">
-		<p><strong>The Peel Boutique</strong> offers an express treatment of high-quality professional strength acid skin peels that are chirally correct and non-inflammatory or skin thinning.
-		</p>
-	</div>
-	<div class="landing-boxes">
-		<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-left" %>
-		<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-right" %>
-		<div class="landing-treatments-box">
-			<h3 class="text-center">TREATMENTS</h3>
-			<p>Choose from 3 bespoke express peels on The Peel Boutique menu to cater for all skin types and colours. 
-			<br></br>
-			&nbsp;– The Brightening Peel<br>
-			&nbsp;– The Hydrating Peel<br>
-			&nbsp;– The Blemish Peel<br>
-			<br>
-			<%= link_to "Read More...", treatments_path %></p>
-		</div>
-		<div class="landing-treatments-image">
-			<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1490383203/Screen_Shot_2017-03-24_at_19.19.33_buqojq.png") %>
-		</div>
-	</div>
-	<div class="text-center">
-		<%= link_to "BOOK A TREATMENT", booking_path, class: "pink-button" %>
-	</div>
-	<div class="landing-boxes">
-		<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-left-2" %>
-		<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-right-2" %>
-		<div class="landing-about-image">
-			<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1490444988/Screen_Shot_2017-03-25_at_12.29.06_xc7pwp.png") %>
-		</div>
-		<div class="landing-about-box">
-			<h3 class="text-center">ABOUT US</h3>
-			<p>Dr. Rabia Malik is a sought after Aesthetic Medical Doctor who specialises in non-invasive, non-surgical facial rejuvenation and problem skin solutions. She believes in a holistic approach to skincare to achieve a healthier and vibrant complexion.<br>
-			<br>
-			<%= link_to "Read More...", about_path %></p></p>
-		</div>
-	</div>
-	<div class="spacer-text text-center">
-		<h3>VISIBLY FIRMER, LIFTED, MORE YOUTHFUL LOOKING SKIN</h3>
-	</div>
-	<div class="landing-boxes">
-		<div class="landing-book-triangle">
-			<%= link_to booking_path do %>
- 				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1490444447/Screen_Shot_2017-03-25_at_12.19.58_xlegzg.png") %>
-				<p>BOOK <br>TREATMENTS</p>
-			<% end %>
-		</div>
-		<div class="landing-shop-triangle">
-			<%= link_to root_path do %>
-				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1490444804/Screen_Shot_2017-03-25_at_12.25.47_oq7jqm.png") %>
-				<p>SHOP <br>PRODUCTS</p>
-			<% end %>
-		</div>
-	</div>
-	<div class="landing-boxes">
-		<div class="triple-box landing-press-image">
-			<%= link_to root_path do %>
- 				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1490487921/Screen_Shot_2017-03-26_at_00.23.39_lsgjff.png") %>
-				<p>PRESS</p>
-			<% end %>
-		</div>
-		<div class="triple-box landing-contact-image">
-			<%= link_to contact_path do %>
-				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1490487924/Screen_Shot_2017-03-26_at_00.24.02_iswhfg.png") %>
-				<p>CONTACT</p>
-			<% end %>
-		</div>
-		<div class="triple-box landing-faq-image">
-			<%= link_to faqs_path do %>
-				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1490487923/Screen_Shot_2017-03-26_at_00.24.43_zhvddo.png") %>
-				<p>FAQs</p>
-			<% end %>
-		</div>
-	</div>
-	<div class="spacer-text text-center">
-		<h3>ANTI-AGING, NON-TOXIC, REJUVENATING AND PROFESSIONAL PEELS</h3>
-	</div>
-	<div class="instagram-images">
-	<%= link_to "www.instagram.com" do %>
-		<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1490445878/Screen_Shot_2017-03-25_at_12.39.08_copy_fanufp.jpg") %>
+	<%= link_to "#enter" do %>
+		<div class="page-content">
+			<div class="landing-sub-text text-center" id="enter">
+				<p>VISIBLY BRIGHTER, HEALTHIER LOOKING SKIN</p>
+				<i class="fa fa-arrow-down enter-btn"></i>
+			</div>
 	<% end %>
+			<div class="intro-text text-center container" id="landing-content">
+				<p><strong>The Peel Boutique</strong> offers an express treatment of high-quality professional strength acid skin peels that are chirally correct and non-inflammatory or skin thinning.
+				</p>
+			</div>
+			<div class="landing-boxes">
+				<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-left" %>
+				<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-right" %>
+				<div class="landing-treatments-box">
+					<h3 class="text-center">TREATMENTS</h3>
+					<p>Choose from 3 bespoke express peels on The Peel Boutique menu to cater for all skin types and colours. 
+					<br></br>
+					&nbsp;– The Brightening Peel<br>
+					&nbsp;– The Hydrating Peel<br>
+					&nbsp;– The Blemish Peel<br>
+					<br>
+					<%= link_to "Read More...", treatments_path %></p>
+				</div>
+				<div class="landing-treatments-image">
+					<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1490383203/Screen_Shot_2017-03-24_at_19.19.33_buqojq.png") %>
+				</div>
+			</div>
+			<div class="text-center">
+				<%= link_to "BOOK A TREATMENT", booking_path, class: "pink-btn" %>
+			</div>
+			<div class="landing-boxes">
+				<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-left-2" %>
+				<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-right-2" %>
+				<div class="landing-about-image">
+					<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1490444988/Screen_Shot_2017-03-25_at_12.29.06_xc7pwp.png") %>
+				</div>
+				<div class="landing-about-box">
+					<h3 class="text-center">ABOUT US</h3>
+					<p>Dr. Rabia Malik is a sought after Aesthetic Medical Doctor who specialises in non-invasive, non-surgical facial rejuvenation and problem skin solutions. She believes in a holistic approach to skincare to achieve a healthier and vibrant complexion.<br>
+					<br>
+					<%= link_to "Read More...", about_path %></p></p>
+				</div>
+			</div>
+			<div class="spacer-text text-center">
+				<h3>VISIBLY FIRMER, LIFTED, MORE YOUTHFUL LOOKING SKIN</h3>
+			</div>
+			<div class="landing-boxes">
+				<div class="landing-book-triangle">
+					<%= link_to booking_path do %>
+		 				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1490444447/Screen_Shot_2017-03-25_at_12.19.58_xlegzg.png") %>
+						<p>BOOK <br>TREATMENTS</p>
+					<% end %>
+				</div>
+				<div class="landing-shop-triangle">
+					<%= link_to root_path do %>
+						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1490444804/Screen_Shot_2017-03-25_at_12.25.47_oq7jqm.png") %>
+						<p>SHOP <br>PRODUCTS</p>
+					<% end %>
+				</div>
+			</div>
+			<div class="landing-boxes">
+				<div class="triple-box landing-press-image">
+					<%= link_to root_path do %>
+		 				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1490487921/Screen_Shot_2017-03-26_at_00.23.39_lsgjff.png") %>
+						<p>PRESS</p>
+					<% end %>
+				</div>
+				<div class="triple-box landing-contact-image">
+					<%= link_to contact_path do %>
+						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1490487924/Screen_Shot_2017-03-26_at_00.24.02_iswhfg.png") %>
+						<p>CONTACT</p>
+					<% end %>
+				</div>
+				<div class="triple-box landing-faq-image">
+					<%= link_to faqs_path do %>
+						<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1490487923/Screen_Shot_2017-03-26_at_00.24.43_zhvddo.png") %>
+						<p>FAQs</p>
+					<% end %>
+				</div>
+			</div>
+			<div class="spacer-text text-center">
+				<h3>ANTI-AGING, NON-TOXIC, REJUVENATING AND PROFESSIONAL PEELS</h3>
+			</div>
+			<div class="instagram-images">
+			<%= link_to "www.instagram.com" do %>
+				<%= image_tag("http://res.cloudinary.com/dcszu7vjv/image/upload/v1490445878/Screen_Shot_2017-03-25_at_12.39.08_copy_fanufp.jpg") %>
+			<% end %>
+			</div>
+			 <%= render 'shared/footer' %>
+		</div>
 	</div>
-	 <%= render 'shared/footer' %>
-</div>

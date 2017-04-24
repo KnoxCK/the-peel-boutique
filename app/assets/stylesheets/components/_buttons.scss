@@ -1,4 +1,4 @@
-.booking-button {
+.booking-btn {
     display: inline-block;
     margin-bottom: 0;
     font-weight: normal;
@@ -18,8 +18,10 @@
     background-color: #BFD2E4;
     position: absolute;
     right: 70px;
+    font-weight: lighter;
+    letter-spacing: 1px;
 }
-.booking-button:hover {
+.booking-btn:hover {
     background-color: #FDA993;
     text-decoration: none;
     color: white;
@@ -27,7 +29,7 @@
     	text-decoration: none;
     }
 }
-.pink-button {
+.pink-btn {
 	display: inline-block;
     margin-bottom: 0;
     font-weight: lighter;
@@ -45,16 +47,20 @@
     line-height: 1.4;
     border-radius: 2px;
     text-decoration: none;
-    color: #7B7C81;
-    background-color: transparent;
-    border: 1px solid #7B7C81;
-}
-.pink-button:hover {
+    color: white;
     background-color: #FDA993;
     border: 1px solid #FDA993;
-    text-decoration: none;
+}
+.pink-btn:hover {
     color: white;
+    background-color: #FDA993;
+    border: 1px solid #FDA993;
+    opacity: 0.8;
+    text-decoration: none;
     a {
     	text-decoration: none;
     }
+}
+.enter-btn {
+
 }

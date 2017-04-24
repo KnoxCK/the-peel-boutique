@@ -1,16 +1,43 @@
+.homepage a {
+	text-decoration: none;
+}
+.landing-text {
+	font-size: 30px;
+    letter-spacing: 3px;
+    color: #7B7C81;
+    width: 480px;
+	position: absolute;
+  	top: 29vh;
+    left: 10vw;
+}
 .landing-sub-text {
-	margin-top: 24px;
+	text-decoration: none;
+	margin-top: 10px;
 	p {
-		font-size: 24px;
+		font-size: 20px;
 		letter-spacing: 3px;
 		color: #7B7C81;
 	}
+}
+.landing-sub-text p {
+	a:hover {
+		text-decoration: none;
+	}
+}
+.fa-arrow-down:hover { 
+	font-size: 17px;
 }
 .main-logo {
 	width: 480px;
 	position: absolute;
 	top: 23vh;
   	left: 10vw;
+}
+.fa-arrow-down {
+	color: #BFD2E4;
+	border: 2px solid #BFD2E4;
+	border-radius: 50%;
+	padding: 5px
 }
 .page-content {
 	background-color: white;
