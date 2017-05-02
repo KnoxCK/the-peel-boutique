@@ -14,9 +14,10 @@
 	text-decoration: none;
 	margin-top: 10px;
 	p {
-		font-size: 20px;
+		font-size: 17px;
 		letter-spacing: 3px;
 		color: #7B7C81;
+		font-weight: lighter;
 	}
 }
 .landing-sub-text p {
@@ -28,10 +29,10 @@
 	font-size: 17px;
 }
 .main-logo {
-	width: 480px;
+	width: 570px;
 	position: absolute;
 	top: 23vh;
-  	left: 10vw;
+  	left: 8vw;
 }
 .fa-arrow-down {
 	color: #BFD2E4;
@@ -40,12 +41,22 @@
 	padding: 5px
 }
 .page-content {
+	border-top: 5px solid #FDA993;
 	background-color: white;
 	width: 100%;
 	z-index: 100 !important;
 	position: relative;
-	margin-top: 80vh;
-	padding-top: 30px;
+	margin-top: 84vh;
+	padding-top: 10px;
+}
+.landing-page-content {
+	border-top: 5px solid #BFD2E4;
+	background-color: white;
+	width: 100%;
+	z-index: 100 !important;
+	position: relative;
+	margin-top: 84vh;
+	padding-top: 10px;
 }
 .intro-text {
 	padding: 40px 200px;
@@ -95,26 +106,26 @@
 .landing-strip-left {
     position: absolute;
     bottom: -29px;
-    left: 98px;
+    left: 106px;
 }
 .landing-strip-right {
     position: absolute;
     top: -27px;
-    right: 100px;
+    right: 110px;
 }
 .landing-strip-left-2 {
 	width: 100px;
     height: 100px;
     position: absolute;
     bottom: -29px;
-    left: 98px;
+    left: 106px;
 }
 .landing-strip-right-2 {
 	width: 100px;
     height: 100px;
     position: absolute;
     top: -27px;
-    right: 100px;
+    right: 110px;
 }
 .landing-about-box	{
 	background-color: #F2F2F2;

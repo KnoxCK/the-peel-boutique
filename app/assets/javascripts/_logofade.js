@@ -1,12 +1,12 @@
 $(document).ready(function(){
 	setTimeout(function() {
          
-	$(".landing-logo").addClass("fadeOut");
+	$(".").addClass("fadeOut");
 	e.preventDefault();
 	}, 4000);
 
 	setTimeout(function() {
-    $(".landing-logo").addClass("hidden");     
+    $(".").addClass("hidden");     
 	e.preventDefault();
 	}, 5000);
 
