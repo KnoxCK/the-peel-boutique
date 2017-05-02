@@ -8,20 +8,23 @@
 	}
 }
 .contact-sub-text {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    h3 {
+		color: #7B7C81;
+		padding-top: 58px;
+		letter-spacing: 2px;
+	}
+ }
+.contact-text {
 	position: relative;
 	background-color: #F2F2F2;
 	margin: 24px 200px 70px 200px;
-	h3 {
-		margin-top: 30px;
-		margin-bottom: 30px;
-		color: #7B7C81;
-		padding-top: 58px;
-	}
 	p {
 		font-size: 16px;
 		letter-spacing: 1px;
 		color: #7B7C81;
-		padding: 20px 80px;
+		padding: 75px 80px 20px 80px;
 	}
 	strong {
 		font-size: 18px;
