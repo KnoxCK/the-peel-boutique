@@ -1,8 +1,9 @@
 <%= render 'shared/navbar_landing' %>
 <div class="homepage">
-	<div class="homepage-banner" style="background-image: url('http://res.cloudinary.com/dc8wyadoa/image/upload/v1490357798/Screen_Shot_2017-03-24_at_12.15.59_fvkgxg.png');">
+	<div class="homepage-banner" style="background-image: url('http://res.cloudinary.com/dc8wyadoa/image/upload/v1493813147/HomepageBanner_tegsax.jpg');">
 		<div class="banner-content">
 	    	<%= image_tag "TPB-logo-big.png", class: "main-logo fadeIn landing-logo" %>
+	    	<div class="triangle-pink-landing"></div>
 	  	</div>	
 	</div>
 	<%= link_to "#enter" do %>
@@ -34,7 +35,7 @@
 				</div>
 			</div>
 			<div class="text-center">
-				<%= link_to "BOOK A TREATMENT", booking_path, class: "pink-btn" %>
+				<%= link_to "BOOK A TREATMENT", "mailto:thepeelboutique@gracebelgravia.com?subject=The Peel Boutique Booking Request", class: "pink-btn" %>
 			</div>
 			<div class="landing-boxes">
 				<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-left-2" %>
@@ -53,25 +54,25 @@
 				<h3>FIRMER, LIFTED, MORE YOUTHFUL LOOKING SKIN</h3>
 			</div>
 			<div class="landing-boxes">
-				<div class="landing-book-triangle">
+				<div class="landing-book-box">
 					<%= link_to booking_path do %>
 		 				<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493751408/Shop_deqcq5.jpg") %>
 						<p>BOOK <br>TREATMENT</p>
+						<div class="triangle-pink-box"></div>
 					<% end %>
 				</div>
-				<div class="landing-shop-triangle">
-					<%= link_to root_path do %>
+				<div class="landing-shop-box">
 						<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493749479/Shop_uqyepb.jpg") %>
-						<p>SHOP <br>PRODUCTS</p>
-					<% end %>
+						<p id="shop-products">SHOP <br>PRODUCTS</p>
+						<p id="coming-soon">COMING SOON</p>
+						<div class="triangle-pink-box"></div>
 				</div>
 			</div>
 			<div class="landing-boxes">
 				<div class="triple-box landing-press-image">
-					<%= link_to root_path do %>
 		 				<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493752270/press2_vekmcs.jpg") %>
-						<p>PRESS</p>
-					<% end %>
+						<p id="press-box">PRESS</p>
+						<p id="press-contact">0207 689 8072</p>
 				</div>
 				<div class="triple-box landing-contact-image">
 					<%= link_to contact_path do %>

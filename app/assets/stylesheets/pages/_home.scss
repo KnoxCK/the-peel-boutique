@@ -1,7 +1,20 @@
 .homepage a {
 	text-decoration: none;
 }
-
+.main-logo {
+	width: 570px;
+	position: absolute;
+	top: 23vh;
+  	left: 6vw;
+}
+.triangle-pink-landing {
+  z-index: 2000;
+  width: 0; 
+  height: 0; 
+  border-left: 750px solid #FDA993;
+  border-right: 5px solid transparent;
+  border-top: 507px solid transparent;
+}
 .landing-sub-text {
 	text-decoration: none;
 	margin-top: 10px;
@@ -17,20 +30,14 @@
 		text-decoration: none;
 	}
 }
-.fa-arrow-down:hover { 
-	font-size: 17px;
-}
-.main-logo {
-	width: 570px;
-	position: absolute;
-	top: 23vh;
-  	left: 8vw;
-}
 .fa-arrow-down {
 	color: #BFD2E4;
 	border: 2px solid #BFD2E4;
 	border-radius: 50%;
 	padding: 5px
+}
+.fa-arrow-down:hover { 
+	font-size: 18px;
 }
 .page-content {
 	border-top: 5px solid #FDA993;
@@ -158,7 +165,7 @@
 	letter-spacing: 1px;
 	margin: 70px 0;
 }
-.landing-book-triangle {
+.landing-book-box {
 	position: relative;
 	img {
 		width: 492.5px;
@@ -170,18 +177,25 @@
 		left: 20px;
 		font-size: 22px;
 		color: white;
+		z-index: 2000;
 	}
 }
-.landing-book-triangle:hover {
-	p {
-		color: #7B7C81;
+.landing-book-box:hover {
+	.triangle-pink-box {
+		border-left: 270px solid rgba(253,169,147, 1);
 	}
 }
-.landing-shop-triangle {
+.landing-shop-box {
 	position: relative;
+	margin-left: 7px;
+	#coming-soon {
+		color: #7B7C81;
+		left: 170px;
+		bottom: 100px;
+		letter-spacing: 1px;
+	}
 	img {
 		width: 492.5px;
-		margin-left: 7px;
 	}
 	p {
 		position: absolute;
@@ -189,18 +203,27 @@
 		left: 28px;
 		font-size: 22px;
 		color: white;
+		z-index: 2000;
 	}
 }
-.landing-shop-triangle:hover {
-	p {
-		color: #7B7C81;
-	}
+.triangle-pink-box {
+	position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 270px solid rgba(253,169,147,0.8);
+    border-right: 5px solid transparent;
+    border-top: 170px solid transparent;
 }
 .triple-box {
 	margin-top: 14px;
 }
 .landing-press-image {
 	position: relative;
+	#press-contact {
+		display: none;
+	}
 	img {
 		width: 324px;
 	}
@@ -208,13 +231,20 @@
 		position: absolute;
 		bottom: 46px;
 		left: 103px;
-		font-size: 22px;
+		font-size: 20px;
 		color: white;
 		border: 3px solid white;
 		padding: 10px;
 	}
 }
 .landing-press-image:hover {
+	#press-contact {
+		display: block;
+		left: 80px;
+	}
+	#press-box {
+		display: none;
+	}
 	p {
 		background-color: #7B7C81;
 	}
@@ -231,7 +261,7 @@
 		position: absolute;
 		bottom: 46px;
 		left: 103px;
-		font-size: 22px;
+		font-size: 20px;
 		color: white;
 		border: 3px solid white;
 		padding: 10px;
@@ -251,7 +281,7 @@
 		position: absolute;
 		bottom: 46px;
 		left: 124px;
-		font-size: 22px;
+		font-size: 20px;
 		color: white;
 		border: 3px solid white;
 		padding: 10px;
