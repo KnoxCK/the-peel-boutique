@@ -21,13 +21,18 @@
 	background-color: #F2F2F2;
 	margin: 0 80px;
 	h3 {
-		color: #7B7C81;
-		padding-top: 60px;
-		padding-bottom: 30px;
+		color: #BFD2E4;
+		padding-top: 70px;
+		padding-bottom: 40px;
+		font-size: 27px;
+		letter-spacing: 2px;
 	}
 	p {
 		padding: 0 50px 50px 50px;
-		margin-bottom: 20px;
+	}
+	span {
+		font-size: 18px;
+		font-weight: bold;
 	}
 }
 .treatment-strip-left {
@@ -40,3 +45,22 @@
     top: -27px;
     right: -30px;
 }
+.why-peels {
+	display: flex;
+	margin-top: 60px;
+}
+.why-peels-text {
+	z-index: 2000;
+	margin-left: 344px;
+	p {
+		padding: 30px 0px;
+	}
+}
+.why-peels-image img {
+	width: 500px;
+	position: absolute;
+    left: 0;
+    margin-top: 10px;
+}
+
+
