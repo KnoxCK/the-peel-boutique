@@ -35,3 +35,23 @@
 .footer-logo {
 	width: 340px;
 }
+.sign-up {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.hc-actions {
+	display: flex;
+	justify-content: center;
+}
+.hc-footer {
+	display: none !important;
+}
+.box {
+	background-color: #7B7C81;
+    width: 100%;
+    height: 25px;
+    z-index: 2000;
+    position: absolute;
+    bottom: 74px;
+}
