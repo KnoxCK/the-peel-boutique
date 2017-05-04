@@ -25,14 +25,41 @@
 .about-small-images {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 .about-small-image {
-	width: 350px;
-	height: 240px;
 	overflow: hidden;
 	img {
 		width: 350px;
 		margin: 20px 7px;
 		background-position: center;
+	}
+}
+
+@media only screen and (max-width:1220px) {
+  	.about-sub-text {
+		p {
+			padding: 20px 120px;
+		}
+	}
+}
+@media only screen and (max-width:900px) {
+  	.about-sub-text {
+		p {
+			padding: 20px 40px;
+		}
+	}
+}
+@media only screen and (max-width:800px) {
+  	.about-rabia-image img {
+		width: 80%; 
+	}
+}
+@media only screen and (max-width:700px) {
+  	.about-small-image {
+		img {
+			width: 350px;
+			margin: 5px 0px;
+		}
 	}
 }
