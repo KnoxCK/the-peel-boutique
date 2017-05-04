@@ -14,7 +14,7 @@
 			</div>
 	<% end %>
 			<div class="intro-text text-center container" id="landing-content">
-				<p><strong>The Peel Boutique</strong> offers an express treatment of high-quality professional strength acid skin peels that are chirally correct and non-inflammatory or skin thinning.
+				<p><strong>The Peel Boutique</strong> offers an express treatment of high-quality professional strength lactic acid skin peels that are chirally correct and non-inflammatory or skin thinning.
 				</p>
 			</div>
 			<div class="landing-boxes">
@@ -24,9 +24,9 @@
 					<h3 class="text-center">TREATMENTS</h3>
 					<p>Choose from 3 bespoke express peels on The Peel Boutique menu to cater for all skin types and colours. 
 					<br></br>
-					&nbsp;– The Brightening Peel<br>
-					&nbsp;– The Hydrating Peel<br>
-					&nbsp;– The Blemish Peel<br>
+					&nbsp;<%= link_to "– The Brightening Peel", treatments_path(:anchor => "treatment-menu") %><br>
+					&nbsp;<%= link_to "– The Hydrating Peel", treatments_path(:anchor => "treatment-menu") %><br>
+					&nbsp;<%= link_to "– The Blemish Peel", treatments_path(:anchor => "treatment-menu") %><br>
 					<br>
 					<%= link_to "Read More...", treatments_path %></p>
 				</div>
@@ -70,7 +70,7 @@
 			</div>
 			<div class="landing-boxes">
 				<div class="triple-box landing-press-image">
-		 				<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493752270/press2_vekmcs.jpg") %>
+		 				<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493752265/press1_vsqug9.jpg") %>
 						<p id="press-box">PRESS</p>
 						<p id="press-contact">0207 689 8072</p>
 				</div>
@@ -82,13 +82,13 @@
 				</div>
 				<div class="triple-box landing-faq-image">
 					<%= link_to faqs_path do %>
-						<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493752265/press1_vsqug9.jpg") %>
+						<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493921707/press_lqzyld.jpg") %>
 						<p>FAQs</p>
 					<% end %>
 				</div>
 			</div>
 			<div class="spacer-text text-center">
-				<h3>ANTI-AGING, NON-TOXIC, REJUVENATING AND PROFESSIONAL PEELS</h3>
+				<h3>NON-TOXIC, REJUVENATING AND PROFESSIONAL PEELS</h3>
 			</div>
 			<%= render 'shared/instagram_section' %>
 			<%= render 'shared/footer' %>
