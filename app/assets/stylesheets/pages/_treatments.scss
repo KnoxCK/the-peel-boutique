@@ -47,17 +47,17 @@
 }
 .why-peels {
 	display: flex;
-	margin-top: 60px;
+	margin-top: 20px;
 }
 .why-peels-text {
 	z-index: 2000;
-	margin-left: 344px;
+	margin: 0 0 -130px 344px;
 	p {
 		padding: 30px 0px;
 	}
 }
 .why-peels-image img {
-	width: 500px;
+	width: 530px;
 	position: absolute;
     left: 0;
     margin-top: 10px;

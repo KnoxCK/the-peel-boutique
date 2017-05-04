@@ -292,6 +292,21 @@
 		background-color: #7B7C81;
 	}
 }
-.instagram-images img {
+.instagram-section {
+	position: relative;
+	h4 {
+		position: absolute;
+    	top: 103px;
+    	left: 42.8%;
+	    color: white;
+	    letter-spacing: 1px;
+	}
+}
+.instagram-section:hover {
+	h4 {
+		color: #7B7C81;
+	}
+}
+.instagram-image img {
 	width: 100%;
 }
