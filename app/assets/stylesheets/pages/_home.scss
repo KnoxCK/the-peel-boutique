@@ -68,6 +68,15 @@
 	display: flex;
 	justify-content: center;
 	position: relative;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.landing-boxes-about {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	flex-wrap: wrap;
+	align-items: center;
 }
 .landing-treatments-box	{
 	background-color: #F2F2F2;
@@ -93,10 +102,14 @@
 		text-decoration:none;
 	}
 }
-.landing-treatments-image img {
-	height: 350px;
-	width: 630px;
+.landing-treatments-image {
+	align-items: center;
 	margin-left: 7px;
+	img {
+		height: 350px;
+		width: 630px;
+		margin-left: 7px;
+	}
 }
 .landing-strip {
 	width: 100px;
@@ -292,21 +305,123 @@
 		background-color: #7B7C81;
 	}
 }
-.instagram-section {
-	position: relative;
-	h4 {
-		position: absolute;
-    	top: 103px;
-    	left: 42.8%;
-	    color: white;
-	    letter-spacing: 1px;
+
+@media only screen and (max-width:1202px) {
+	.intro-text {
+		padding: 40px 100px;
+	}
+	.landing-strips {
+		
+	}
+
+}
+@media only screen and (max-width:1005px) {
+	.landing-boxes { 
+		flex-direction: column-reverse;
+	}
+	.landing-strips {
+		display: none;
+	}
+	.landing-treatments-box {
+		width: 80%;
+		height: 315px;
+		margin-right: 0;
+		p {
+			padding-left: 60px;
+			padding-bottom: 0;
+		}
+	}
+	.landing-treatments-image {
+		margin-left: 0;
+		width: 80%;
+		img {
+			height: auto;
+			width: 100%;
+			margin-left: 0;
+		}
+	}
+	.landing-about-box	{
+		width: 80%;
+	    height: 315px;
+		margin-left: 0;
+		p {
+			padding-left: 60px;
+			padding-bottom: 0;
+		}
+	}
+	.landing-about-image {
+		width: 80%;
+		margin-right: 0;
+		img {
+			height: auto;
+			width: 100%;
+		}
+	}	
+	.landing-book-box img {
+		width: 600px;
+		margin-top: 10px;
+		margin-right: 0;
+	}
+	.landing-shop-box {
+		margin-left: 0;
+		#coming-soon {
+			left: 210px;
+    		bottom: 129px;
+	}
+		img {
+			width: 600px;
+		}
+	}
+	.landing-faq-image {
+		img {
+			width: 100%;
+		}
+		p {
+		    bottom: 115px;
+		    left: 250px;
+	    	font-size: 30px;
+	   		border: 5px solid white;
+		}
+	}
+	.landing-contact-image {
+		img {
+			width: 100%;
+			margin: 0;
+		}
+		p {
+		    bottom: 115px;
+		    left: 220px;
+	    	font-size: 30px;
+	   		border: 5px solid white;
+		}
+	}
+	.landing-press-image {
+		display: none;
 	}
 }
-.instagram-section:hover {
-	h4 {
-		color: #7B7C81;
+
+@media only screen and (max-width:806px) {
+	.landing-treatments-box {
+		width: 630px;
+		p {
+			padding-left: 60px;
+			padding-bottom: 0;
+		}
+	}
+	.landing-treatments-image {
+		margin-left: 0;
+		img {
+			height: auto;
+			width: 630px;
+			margin-left: 0;
+		}
 	}
 }
-.instagram-image img {
-	width: 100%;
+@media only screen and (max-width:788px) {
+
 }
+
+
+
+
+

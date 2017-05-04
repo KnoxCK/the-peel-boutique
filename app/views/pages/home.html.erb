@@ -7,65 +7,69 @@
 	  	</div>	
 	</div>
 	<%= link_to "#enter" do %>
-		<div class="landing-page-content pullUp">
-			<div class="landing-sub-text text-center" id="enter">
-				<p>VISIBLY BRIGHTER, HEALTHIER LOOKING SKIN</p>
-				<i class="fa fa-arrow-down enter-btn"></i>
-			</div>
+	<div class="landing-page-content pullUp">
+		<div class="landing-sub-text text-center" id="enter">
+			<p>VISIBLY BRIGHTER, HEALTHIER LOOKING SKIN</p>
+			<i class="fa fa-arrow-down enter-btn"></i>
+		</div>
 	<% end %>
-			<div class="intro-text text-center container" id="landing-content">
-				<p><strong>The Peel Boutique</strong> offers an express treatment of high-quality professional strength lactic acid skin peels that are chirally correct and non-inflammatory or skin thinning.
-				</p>
+	<div class="intro-text text-center container" id="landing-content">
+		<p><strong>The Peel Boutique</strong> offers an express treatment of high-quality professional strength lactic acid skin peels that are chirally correct and non-inflammatory or skin thinning.
+		</p>
+	</div>
+		<div class="landing-boxes">
+			<div class="landing-strips">
+			<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-left" %>
+			<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-right" %>
 			</div>
-			<div class="landing-boxes">
-				<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-left" %>
-				<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-right" %>
-				<div class="landing-treatments-box">
-					<h3 class="text-center">TREATMENTS</h3>
-					<p>Choose from 3 bespoke express peels on The Peel Boutique menu to cater for all skin types and colours. 
-					<br></br>
-					&nbsp;<%= link_to "– The Brightening Peel", treatments_path(:anchor => "treatment-menu") %><br>
-					&nbsp;<%= link_to "– The Hydrating Peel", treatments_path(:anchor => "treatment-menu") %><br>
-					&nbsp;<%= link_to "– The Blemish Peel", treatments_path(:anchor => "treatment-menu") %><br>
-					<br>
-					<%= link_to "Read More...", treatments_path %></p>
-				</div>
-				<div class="landing-treatments-image">
-					<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493752083/Landing-treatments_kqzocm.jpg") %>
-				</div>
+			<div class="landing-treatments-box">
+				<h3 class="text-center">TREATMENTS</h3>
+				<p>Choose from 3 bespoke express peels on The Peel Boutique menu to cater for all skin types and colours. 
+				<br></br>
+				&nbsp;<%= link_to "– The Brightening Peel", treatments_path(:anchor => "treatment-menu") %><br>
+				&nbsp;<%= link_to "– The Hydrating Peel", treatments_path(:anchor => "treatment-menu") %><br>
+				&nbsp;<%= link_to "– The Blemish Peel", treatments_path(:anchor => "treatment-menu") %><br>
+				<br>
+				<%= link_to "Read More...", treatments_path %></p>
 			</div>
-			<div class="text-center">
-				<%= link_to "BOOK A TREATMENT", "mailto:thepeelboutique@gracebelgravia.com?subject=The Peel Boutique Booking Request", class: "pink-btn" %>
+			<div class="landing-treatments-image">
+				<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493752083/Landing-treatments_kqzocm.jpg") %>
 			</div>
-			<div class="landing-boxes">
-				<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-left-2" %>
-				<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-right-2" %>
-				<div class="landing-about-image">
-					<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493726615/About1_jsnr4k.jpg") %>
-				</div>
-				<div class="landing-about-box">
-					<h3 class="text-center">ABOUT US</h3>
-					<p>Dr. Rabia Malik is a sought after Aesthetic Medical Doctor who specialises in non-invasive, non-surgical facial rejuvenation and problem skin solutions. She believes in a holistic approach to skincare to achieve a healthier and vibrant complexion.<br>
-					<br>
-					<%= link_to "Read More...", about_path %></p></p>
-				</div>
+		</div>
+		<div class="text-center">
+			<%= link_to "BOOK A TREATMENT", "mailto:thepeelboutique@gracebelgravia.com?subject=The Peel Boutique Booking Request", class: "pink-btn" %>
+		</div>
+		<div class="landing-boxes-about">
+			<div class="landing-strips">
+			<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-left-2" %>
+			<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-right-2" %>
 			</div>
-			<div class="spacer-text text-center">
-				<h3>FIRMER, LIFTED, MORE YOUTHFUL LOOKING SKIN</h3>
+			<div class="landing-about-image">
+				<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493726615/About1_jsnr4k.jpg") %>
 			</div>
-			<div class="landing-boxes">
-				<div class="landing-book-box">
-					<%= link_to booking_path do %>
-		 				<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493751408/Shop_deqcq5.jpg") %>
-						<p>BOOK <br>TREATMENT</p>
-						<div class="triangle-pink-box"></div>
-					<% end %>
-				</div>
-				<div class="landing-shop-box">
-						<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493749479/Shop_uqyepb.jpg") %>
-						<p id="shop-products">SHOP <br>PRODUCTS</p>
-						<p id="coming-soon">COMING SOON</p>
-						<div class="triangle-pink-box"></div>
+			<div class="landing-about-box">
+				<h3 class="text-center">ABOUT US</h3>
+				<p>Dr. Rabia Malik is a sought after Aesthetic Medical Doctor who specialises in non-invasive, non-surgical facial rejuvenation and problem skin solutions. She believes in a holistic approach to skincare to achieve a healthier and vibrant complexion.<br>
+				<br>
+				<%= link_to "Read More...", about_path %></p></p>
+			</div>
+		</div>
+		<div class="spacer-text text-center">
+			<h3>FIRMER, LIFTED, MORE YOUTHFUL LOOKING SKIN</h3>
+		</div>
+		<div class="landing-boxes">
+			<div class="landing-book-box">
+				<%= link_to booking_path do %>
+	 				<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493751408/Shop_deqcq5.jpg") %>
+					<p>BOOK <br>TREATMENT</p>
+					<div class="triangle-pink-box"></div>
+				<% end %>
+			</div>
+			<div class="landing-shop-box">
+					<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493749479/Shop_uqyepb.jpg") %>
+					<p id="shop-products">SHOP <br>PRODUCTS</p>
+					<p id="coming-soon">COMING SOON</p>
+					<div class="triangle-pink-box"></div>
 				</div>
 			</div>
 			<div class="landing-boxes">
