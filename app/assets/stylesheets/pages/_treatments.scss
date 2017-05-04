@@ -48,6 +48,7 @@
 .why-peels {
 	display: flex;
 	margin-top: 20px;
+	flex-wrap: wrap;
 }
 .why-peels-text {
 	z-index: 2000;
@@ -62,5 +63,39 @@
     left: 0;
     margin-top: 10px;
 }
+@media only screen and (max-width:1199px) {
+  	.why-peels-text {
+		z-index: 0;
+		margin: 0;
+	}
+}
+@media only screen and (max-width:1166px) {
+  	.treatment-sub-text {
+		margin: 24px 60px 70px 60px;
+	}
+	.why-peels-text {
+		margin: 0 60px;
+	}
+}
+@media only screen and (max-width:965px) {
+	.treatment-sub-text {
+		margin: 24px 10px 70px 10px;
+	}
+	.why-peels-text {
+		margin: 0 60;
+	}
+}
+@media only screen and (max-width:850px) {
+	.treatment-menu {
+		margin: 0 20px;
+	}
+	.treatment-sub-text p {
+		padding: 30px 40px;
+	}
+	.why-peels-text {
+		margin: 0 0;
+	}
+}
+
 
 
