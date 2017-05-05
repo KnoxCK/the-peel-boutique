@@ -920,8 +920,8 @@ pullDown
   animation-name: pullDown;
   -webkit-animation-name: pullDown;
 
-  animation-duration: 1.1s;
-  -webkit-animation-duration: 1.1s;
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
 
   animation-timing-function: ease-out;
   -webkit-animation-timing-function: ease-out;
@@ -933,22 +933,7 @@ pullDown
 
 @keyframes pullDown {
   0% {
-    transform: scaleY(0.1);
-  }
-  40% {
-    transform: scaleY(1.02);
-  }
-  60% {
-    transform: scaleY(0.98);
-  }
-  80% {
-    transform: scaleY(1.01);
-  }
-  100% {
-    transform: scaleY(0.98);
-  }
-  80% {
-    transform: scaleY(1.01);
+    transform: scaleY(0.6);
   }
   100% {
     transform: scaleY(1);
@@ -957,22 +942,7 @@ pullDown
 
 @-webkit-keyframes pullDown {
   0% {
-    -webkit-transform: scaleY(0.1);
-  }
-  40% {
-    -webkit-transform: scaleY(1.02);
-  }
-  60% {
-    -webkit-transform: scaleY(0.98);
-  }
-  80% {
-    -webkit-transform: scaleY(1.01);
-  }
-  100% {
-    -webkit-transform: scaleY(0.98);
-  }
-  80% {
-    -webkit-transform: scaleY(1.01);
+    -webkit-transform: scaleY(0.6);
   }
   100% {
     -webkit-transform: scaleY(1);

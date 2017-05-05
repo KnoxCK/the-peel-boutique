@@ -43,9 +43,29 @@
 .question {
 	position: relative;
 	left: 20px;	
+	width: 720px;
 }
 .answer {
-	display: none;
-	width: 800px;
+	width: 720px;
 	padding: 10px 40px;
+}
+@media only screen and (max-width:992px) {
+	.question {
+		left: 0px;	
+		width: 100%;
+	}
+	.answer {
+		width: 100%;
+		padding: 10px 40px;
+	}
+	.faq-image img {
+		display: none;
+	}
+	.faq-items {
+		justify-content: center;
+	}
+	.faq-sub-text { 
+		width: 100%;
+		padding: 0 10px;
+	}
 }
