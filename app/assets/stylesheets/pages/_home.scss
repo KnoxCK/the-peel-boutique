@@ -376,7 +376,6 @@
 		display: none;
 	}
 }
-
 @media only screen and (max-width:746px) {
 	.intro-text {
 	    padding: 40px 10px;
@@ -454,19 +453,56 @@
 
 // banner
 @media only screen and (max-width:760px) {
-	.triangle-pink-landing {
-	    border-left: 644px solid #FDA993;
-	    border-top: 560px solid transparent;
-	}              
+	 .triangle-pink-landing {
+    border-left: 550px solid #FDA993;
+    border-top: 560px solid transparent;
+}            
 }
 @media only screen and (max-width:651px) {
 	.landing-logo {
 		width: 96vw;
 		left: 5px;
 	}
+	.footer-logo {
+    width: 290px;
+}
 
 }
 
+//iphone 5 
+@media only screen and (max-width:550px) {
+	.page-content {
+		margin-top: 74vh;
+	}
+	.navbar-the-peel-boutique-main-brand img {
+	    left: 24px;
+	}
+	.landing-shop-box #coming-soon {
+	    left: 210px;
+	    bottom: 66px;
+	}
+	.landing-faq-image p {
+	    bottom: 41px;
+	    left: 114px;
+	}
+	.landing-contact-image p {
+	    bottom: 39px;
+	    left: 82px;
+	}
+	.landing-page-content {
+    	margin-top: 75vh;
+	}
+}
 
-
-
+@media only screen and (max-width: 667px) and (min-width: 568px) {
+	.main-logo {
+	    width: 304px;
+    	top: 8vh;
+	}
+	.landing-page-content {
+		margin-top: 73vh;
+	}
+	.landing-sub-text p {
+    	font-size: 11px;
+    }
+}

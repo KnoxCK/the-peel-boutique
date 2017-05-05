@@ -23,7 +23,8 @@
   left: 0px;
   top: 0px;
   z-index: 1001;
-  width: 100%;
+  width: 100vw;
+  max-width: 100%;
 }
 
 /* Navbar logo */
@@ -124,13 +125,13 @@
 }
 @media only screen and (max-width:990px){
   .navbar-the-peel-boutique-main {
-    padding-right: 80px;
+    padding-right: 45px;
   }
 }
 // Tablet - portrait max 420
 @media only screen and (max-width:420px){
-  .navbar-the-peel-boutique-main-brand img {
-      width: 100px;
+  .pink-logo {
+      width: 195px;
   }
 }
 
