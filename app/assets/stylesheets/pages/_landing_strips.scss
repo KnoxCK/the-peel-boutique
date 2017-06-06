@@ -1,16 +1,19 @@
 .landing-strip {
 	width: 100px;
 	height: 100px;
+    display:none;
 }
 .landing-strip-left {
     position: absolute;
     bottom: -29px;
     left: 106px;
+    display:none;
 }
 .landing-strip-right {
     position: absolute;
     top: -27px;
     right: 110px;
+    display:none;
 }
 .landing-strip-left-2 {
 	width: 100px;
@@ -18,6 +21,7 @@
     position: absolute;
     bottom: -29px;
     left: 106px;
+    display:none;
 }
 .landing-strip-right-2 {
 	width: 100px;
@@ -25,4 +29,5 @@
     position: absolute;
     top: -27px;
     right: 110px;
+    display:none;
 }
