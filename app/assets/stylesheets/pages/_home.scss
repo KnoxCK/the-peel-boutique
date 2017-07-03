@@ -274,14 +274,8 @@
 }
 @media only screen and (min-width: 1800px) {
 	.main-logo {
-	    top: 33vh;
+	    top: 23vh;
 	    left: 11vw;
-	}
-}
-@media only screen and (max-width: 1800px) {
-	.main-logo {
-		top: 31vh;
-	    left: 10vw;
 	}
 }
 @media only screen and (max-width:1202px) {
@@ -292,7 +286,6 @@
 		display: none;
 	}
 	.main-logo {
-	    top: 34vh;
 	    left: 10vw;
 	}
 }
@@ -458,9 +451,8 @@
 		left: 5px;
 	}
 	.footer-logo {
-    width: 290px;
-}
-
+    	width: 290px;
+	}
 }
 
 //iphone 5 
