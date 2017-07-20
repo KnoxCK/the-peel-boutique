@@ -55,3 +55,19 @@
     position: absolute;
     bottom: 74px;
 }
+
+.hc_prospect {
+  div:first-child {
+    display: flex;
+    justify-content: center;
+  }
+  #prospects_email {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+  #hc-prospect-6121360c14d {
+    height: 25px;
+    margin-top: 5px;
+  }
+}

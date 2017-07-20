@@ -53,6 +53,13 @@
   color: #FDA993;
   text-decoration: none;
 }
+
+.navbar-link a {
+  &.active {
+    color: #FDA993;
+    text-decoration: none;
+  }
+}
 .shop-link {
   color: #E2E2E2;
 }
@@ -60,7 +67,7 @@
   color: #E2E2E2;
 }
 
-//MOBILE: 
+//MOBILE:
 
 //TOGGLE
 

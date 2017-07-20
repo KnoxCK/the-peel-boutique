@@ -29,7 +29,7 @@
 	border-radius: 50%;
 	padding: 5px
 }
-.fa-arrow-down:hover { 
+.fa-arrow-down:hover {
 	font-size: 18px;
 }
 .page-content {
@@ -72,6 +72,7 @@
 	align-items: center;
 }
 .landing-treatments-box	{
+  position: relative;
 	background-color: #F2F2F2;
 	width: 355px;
     height: 350px;
@@ -96,17 +97,19 @@
 	}
 }
 .landing-treatments-image {
+  position: relative;
 	align-items: center;
 	margin-left: 7px;
 	height: 350px;
 	width: 630px;
 	overflow: hidden;
 	img {
-		width: 630px; 
+		width: 630px;
 		background-position: center;
 	}
 }
 .landing-about-box	{
+  position: relative;
 	background-color: #F2F2F2;
 	width: 355px;
     height: 350px;
@@ -131,6 +134,7 @@
 	}
 }
 .landing-about-image {
+  position: relative;
 	height: 350px;
 	width: 630px;
 	margin-right: 7px;
@@ -146,7 +150,6 @@
 	margin: 70px 0;
 }
 .landing-book-box {
-	position: relative;
 	img {
 		width: 492.5px;
 		margin-right: 7px;
@@ -166,7 +169,6 @@
 	}
 }
 .landing-shop-box {
-	position: relative;
 	margin-left: 7px;
 	#coming-soon {
 		color: #7B7C81;
@@ -200,7 +202,6 @@
 	margin-top: 14px;
 }
 .landing-press-image {
-	position: relative;
 	#press-contact {
 		display: none;
 	}
@@ -231,7 +232,6 @@
 }
 
 .landing-contact-image {
-	position: relative;
 	img {
 		width: 324px;
 		margin-left: 14px;
@@ -290,7 +290,7 @@
 	}
 }
 @media only screen and (max-width:1005px) {
-	.landing-boxes { 
+	.landing-boxes {
 		flex-direction: column-reverse;
 	}
 	.landing-treatments-box {
@@ -327,7 +327,7 @@
 			height: auto;
 			width: 100%;
 		}
-	}	
+	}
 	.landing-book-box img {
 		width: 600px;
 		margin-top: 10px;
@@ -413,7 +413,7 @@
 			height: auto;
 			width: 100%;
 		}
-	}	
+	}
 	.landing-book-box img {
 		width: 100%;
 		margin-top: 10px;
@@ -455,7 +455,7 @@
 	}
 }
 
-//iphone 5 
+//iphone 5
 @media only screen and (max-width:550px) {
 	.page-content {
 		margin-top: 74vh;
