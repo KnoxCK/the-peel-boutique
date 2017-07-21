@@ -114,7 +114,8 @@
   position: relative;
 	background-color: #F2F2F2;
 	width: 355px;
-    height: 350px;
+  height: 350px;
+  overflow: visible;
 	padding: 30px 30px;
 	margin-left: 7px;
 	h3 {
@@ -140,11 +141,11 @@
 	height: 350px;
 	width: 630px;
 	margin-right: 7px;
-	overflow: hidden;
-	img {
-		width: 630px;
-		background-position: center;
-	}
+	overflow: visible;
+	// img {
+	// 	width: 630px;
+	// 	background-position: center;
+	// }
 }
 .spacer-text h3 {
 	font-size: 26px;
