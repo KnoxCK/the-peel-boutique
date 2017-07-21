@@ -27,11 +27,8 @@
 		</p>
 	</div>
 		<div class="landing-boxes">
-			<div class="landing-strips">
-			<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-left" %>
-			<%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-right" %>
-			</div>
 			<div class="landing-treatments-box">
+        <%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-left" %>
 				<h3 class="text-center">TREATMENTS</h3>
 				<p>Choose from 3 bespoke express peels on The Peel Boutique menu to cater for all skin types and colours.
 				<br></br>
@@ -42,7 +39,8 @@
 				<%= link_to "Read More...", treatments_path %></p>
 			</div>
 			<div class="landing-treatments-image">
-				<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493752083/Landing-treatments_kqzocm.jpg") %>
+        <%= image_tag "http://res.cloudinary.com/dc8wyadoa/image/upload/v1490786000/TPB-strip-blue_t8fnpz.png", class: "landing-strip landing-strip-right" %>
+				<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493752083/Landing-treatments_kqzocm.jpg", id: "treatments-image") %>
 			</div>
 		</div>
 		<div class="text-center hidden-sm hidden-xs">
