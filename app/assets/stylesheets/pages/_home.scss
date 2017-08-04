@@ -203,13 +203,13 @@
 }
 .triangle-pink-box {
 	position: absolute;
-    bottom: 1px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 270px solid rgba(253,169,147,0.8);
-    border-right: 5px solid transparent;
-    border-top: 170px solid transparent;
+  bottom: 1px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 270px solid rgba(253,169,147,0.8);
+  border-right: 5px solid transparent;
+  border-top: 170px solid transparent;
 }
 .triple-box {
 	margin-top: 14px;
@@ -411,7 +411,19 @@
     margin-left: 0;
   }
 
-  .landing-strip {
+  .landing-strip-left {
+    display: none;
+  }
+
+  .landing-strip-left-2 {
+    display: none;
+  }
+
+  .landing-strip-right {
+    display: none;
+  }
+
+  .landing-strip-right-2 {
     display: none;
   }
 
