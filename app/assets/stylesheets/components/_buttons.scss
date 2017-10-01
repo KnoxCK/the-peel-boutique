@@ -91,11 +91,13 @@
 }
 
 .promotion-btn {
-  padding: 10px;
+  padding: 12px 18px;
   background-color: #FDA993;
-  border-radius: 1px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   opacity: 0.8;
   &:hover {
     cursor: pointer;
