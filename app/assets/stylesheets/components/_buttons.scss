@@ -89,3 +89,17 @@
         text-decoration: none;
     }
 }
+
+.promotion-btn {
+  padding: 10px;
+  background-color: #FDA993;
+  border-radius: 1px;
+  color: white;
+  font-size: 14px;
+  opacity: 0.8;
+  &:hover {
+    cursor: pointer;
+    background-color: #FDA993;
+    opacity: 1;
+  }
+}
