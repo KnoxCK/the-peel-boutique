@@ -8,8 +8,6 @@
 
 Treatment.destroy_all
 
-Treatment.create!(sku:'brightening-peel', name:'The Brightening Peel', price: 75, description:'This is a description of this peel. Blah Blah Blah.')
-Treatment.create!(sku:'hydrating-peel', name:'The Hydrating Peel', price: 75, description:'This is a description of this peel. Blah Blah Blah.')
-Treatment.create!(sku:'blemish-peel', name:'The Blemish Peel', price: 75, description:'This is a description of this peel. Blah Blah Blah.')
+Treatment.create!(sku:'overnight-peel', name:'The Overnight Peel', price: 75, description:'This is a description of this peel. Blah Blah Blah.')
 
 puts 'treatments seeded'
