@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
 
   private
 
-  def set_promotion
-    @promotion = Treatment.first
-  end
+  # def set_promotion
+  #   @promotion = Treatment.first
+  # end
 end
