@@ -20,7 +20,7 @@
 	margin: 24px 260px 70px 260px;
 	padding-bottom: 50px;
 	p {
-		font-size: 16px;
+		font-size: 15px;
 		letter-spacing: 1px;
 		color: #7B7C81;
 		padding: 75px 0 20px 0;
@@ -30,6 +30,10 @@
 	}
 	a {
 		text-decoration: none;
+		color: #FDA892;
+		font-size: 14px;
+	}
+	a:hover {
 		color: #7B7C81;
 	}
 }
