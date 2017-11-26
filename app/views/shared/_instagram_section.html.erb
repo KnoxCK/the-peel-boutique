@@ -1,4 +1,17 @@
 <div class="instagram-section">
+  <div class="instagram-wrapper">
+    <% @image_urls.each do |url| %>
+      <%= link_to "https://www.instagram.com/thepeelboutique/", target: '_blank' do %>
+        <div class="insta-img">
+          <img src=<%= "#{url}media/"%>>
+          <div class="insta">
+            <p>@thepeelboutique</p>
+          </div>
+          <div class="insta-box"></div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
 	<div class="instagram-image hidden-sm hidden-xs">
 		<%= link_to "https://www.instagram.com/thepeelboutique/?hl=en" , target: "blank" do %>
 			<%= image_tag("http://res.cloudinary.com/dc8wyadoa/image/upload/v1493899448/Instabanner_zi0kj8.jpg") %>
