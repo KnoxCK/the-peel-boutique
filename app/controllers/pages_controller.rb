@@ -1,9 +1,9 @@
 require 'open-uri'
 class PagesController < ApplicationController
   skip_before_action :authenticate_user!
+  before_action :instagram, only: [:home, :about, :treatments, :contact]
 
   def home
-    instagram
   end
 
   def about
