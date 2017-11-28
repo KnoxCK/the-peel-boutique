@@ -12,27 +12,26 @@
 		color: #7B7C81;
 		padding: 20px 80px;
 	}
-	strong {
-		font-size: 18px;
-	}
 }
 .treatment-menu {
 	position: relative;
 	background-color: #F2F2F2;
 	margin: 0 80px;
+	padding-bottom: 20px;
 	h3 {
-		color: #BFD2E4;
+		color: #FDA993;
 		padding-top: 70px;
 		padding-bottom: 18px;
 		font-size: 27px;
 		letter-spacing: 2px;
 	}
 	p {
-		padding: 0 50px 50px 50px;
+		padding: 0 50px 35px 50px;
 	}
 	span {
-		font-size: 18px;
+		padding-bottom: 0;
 		font-weight: bold;
+		font-size: 15px;
 	}
 }
 .treatment-strip-left {
