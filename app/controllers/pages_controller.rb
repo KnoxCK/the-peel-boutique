@@ -18,9 +18,9 @@ class PagesController < ApplicationController
   def faqs
   end
 
-  def shop
-    @treatments = Treatment.all
-  end
+  # def shop
+  #   @treatments = Treatment.all
+  # end
 
   def booking
   end

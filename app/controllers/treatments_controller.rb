@@ -1,10 +1,10 @@
-class TreatmentsController < ApplicationController
-  skip_before_action :authenticate_user!
+# class TreatmentsController < ApplicationController
+#   skip_before_action :authenticate_user!
 
-  def index
-  end
+#   def index
+#   end
 
-  def show
-  end
+#   def show
+#   end
 
-end
+# end
