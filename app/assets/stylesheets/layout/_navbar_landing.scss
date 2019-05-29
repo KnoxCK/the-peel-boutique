@@ -12,6 +12,8 @@
   max-width: 100%;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.3);
   margin-top: 30px;
+
+  display: none; // change back
 }
 
 /* Navbar logo */
@@ -40,4 +42,6 @@
     padding-top: 5px;
     padding-right: 80px;
   }
+
+  display: none; // change back
 }

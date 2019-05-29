@@ -1,11 +1,19 @@
 <%= render 'shared/navbar_landing' %>
 <div class="homepage">
 	<div class="homepage-banner hidden-xs hidden-sm hidden-md" style="background-image: url('http://res.cloudinary.com/dc8wyadoa/image/upload/v1493941438/Screen_Shot_2017-05-05_at_00.43.11_f23ikq.png')">
+		<div class="holding-text-lg">
+			<p><span>New London Location Coming Soon.</p></span>
+			<p>For all enquires please email <%= link_to "info@thepeelboutique.com", "mailto:info@thepeelboutique.com" %></p>
+		</div>
 		<div class="banner-content">
 	    	<%= image_tag "TPB-logo-big.png", class: "main-logo fadeIn landing-logo" %>
 	  	</div>
 	</div>
 	<div class="homepage-banner hidden-lg hidden-xl" style="background-image: url('http://res.cloudinary.com/dc8wyadoa/image/upload/v1493986903/LAnding_image_igyjxu.jpg')">
+		<div class="holding-text-md">
+			<p><span>New London Location Coming Soon.</p></span>
+			<p>For all enquires please email <%= link_to "info@thepeelboutique.com", "mailto:info@thepeelboutique.com" %></p>
+		</div>
 		<div class="banner-content">
 	    	<%= image_tag "TPB-logo-big.png", class: "main-logo fadeIn landing-logo" %>
 	  	</div>
@@ -17,11 +25,23 @@
 	</div>
 	<%= link_to "", class: "enter-btn" do %>
 	<div class="landing-page-content pullUp">
-		<div class="landing-sub-text text-center" id="enter">
-			<p>VISIBLY BRIGHTER, HEALTHIER LOOKING SKIN</p>
-			<i class="fa fa-arrow-down enter-btn"></i>
+		<div class="landing-sub-text text-center hidden-xs" id="enter">
+			<p>Visibly brighter, healthier looking skin</p>
+			<!-- change back <i class="fa fa-arrow-down enter-btn"></i>-->
+		</div>
+		<div class="landing-sub-text text-center hidden-lg hidden-md hidden-sm" id="enter" style="display: flex; flex-direction: column; justify-content: center;align-items: center;">
+			<p style="width: 325px">New London Location Coming Soon.</p>
+			<p>For all enquires please email <%= link_to "info@thepeelboutique.com", "mailto:info@thepeelboutique.com" %></p>
 		</div>
 	<% end %>
+
+
+
+
+</div>
+
+<!-- change back
+
 	<div class="intro-text text-center container" id="landing-content">
 		<p><strong>THE PEEL BOUTIQUE</strong> offers an express treatment of high-quality professional strength lactic acid skin peels that are chirally correct and non-inflammatory or skin thinning.
 		</p>

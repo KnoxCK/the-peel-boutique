@@ -36,8 +36,11 @@
   width: 100%;
   z-index: 100 !important;
   position: relative;
-  margin-top: calc(100vh - 130px);
+  margin-top: calc(100vh - 66px); //change back to -130px
   padding-top: 10px;
+  a {
+    color: grey; //remove
+  }
 }
 .intro-text {
   padding: 40px 200px;
@@ -501,7 +504,7 @@
 
 @media only screen and (max-width: 667px) and (min-width: 568px) {
   .landing-page-content {
-    margin-top: 73vh;
+    margin-top: 86vh; // PUT BACK TO 73vh;
   }
   .landing-sub-text p {
       font-size: 11px;
